@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Map.Maps"
+    android:background="@drawable/gradientone">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:navigationIcon="@drawable/back"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_scrollFlags="scroll|enterAlways" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maps"
+            android:textSize="18dp"
+            android:textColor="#FFF"
+            android:fontFamily="@font/lemon"
+            android:layout_marginLeft="80dp"></TextView>
+    </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize"
+        android:layout_above="@+id/nav_view"
+        >
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/secrelative"
+        android:id="@+id/slider"></androidx.viewpager.widget.ViewPager>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/secrelative"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            >
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/presentation"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:fontFamily="@font/lemon"
+            android:textSize="16dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/present_map"
+            android:background="#FAC9CD"
+            android:onClick="checkthis"
+            ></Button>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/dots"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            ></LinearLayout>
+
+
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/roundbuttontwo"
+            android:src="@drawable/next"
+            android:id="@+id/next"
+            android:onClick="gonext"
+            android:adjustViewBounds="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="OnClick">
+        </ImageButton>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FEFEFE"
+        android:layout_marginTop="20dp"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:itemRippleColor="#5D092E"
+        app:menu="@menu/menu_nav"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/nav_view"
+        app:labelVisibilityMode="labeled"
+        ></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+</RelativeLayout>

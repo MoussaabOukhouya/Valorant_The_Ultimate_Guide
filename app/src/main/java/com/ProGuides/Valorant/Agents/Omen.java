@@ -1,0 +1,94 @@
+package com.ProGuides.Valorant.Agents;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
+
+import com.ProGuides.Valorant.R;
+import com.facebook.ads.AdSize;
+import com.facebook.ads.AdView;
+import com.facebook.ads.AudienceNetworkAds;
+
+public class Omen extends AppCompatActivity {
+
+    private AdView adView;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_omen);
+
+        adView = new AdView(getApplicationContext(),"725119301645228_725195691637589", AdSize.BANNER_HEIGHT_50);
+
+        // Find the Ad Container
+        LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
+
+        // Add the ad view to your activity layout
+        adContainer.addView(adView);
+
+        // Request an ad
+        adView.loadAd();
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Omen");
+        final ImageButton aftershock = (ImageButton) findViewById(R.id.shroudedstep);
+        final ImageButton flashpoint = (ImageButton) findViewById(R.id.paranoia);
+        final ImageButton faultline = (ImageButton) findViewById(R.id.darkcover);
+        final ImageButton rolling = (ImageButton) findViewById(R.id.fromtheshadows);
+
+
+
+
+        aftershock.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), omenAbilities.class);
+                intent.putExtra(Intent.EXTRA_TEXT , "shroudedstep");
+                startActivity(intent);
+
+            }
+        });
+
+        flashpoint.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), omenAbilities.class);
+                intent.putExtra(Intent.EXTRA_TEXT , "paranoia");
+                startActivity(intent);
+
+            }
+        });
+
+        faultline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), omenAbilities.class);
+                intent.putExtra(Intent.EXTRA_TEXT , "darkcover");
+                startActivity(intent);
+
+            }
+        });
+
+        rolling.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), omenAbilities.class);
+                intent.putExtra(Intent.EXTRA_TEXT , "fromtheshadows");
+                startActivity(intent);
+
+            }
+        });
+    }
+    @Override
+    protected void onDestroy() {
+        if (adView != null) {
+            adView.destroy();
+        }
+        super.onDestroy();
+    }
+}

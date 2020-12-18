@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "516766338611",
+    "firebase_url": "https://premiere-application-ddf90.firebaseio.com",
+    "project_id": "premiere-application-ddf90",
+    "storage_bucket": "premiere-application-ddf90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516766338611:android:a1c9dcdbb61101d06d9d46",
+        "android_client_info": {
+          "package_name": "com.ProGuides.Valorant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516766338611-rci1v2bcpaogb3jhhb927fks3hoba5e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ProGuides.Valorant",
+            "certificate_hash": "58aba648ba9b86819fbd95f0d86cc1c1c7605a30"
+          }
+        },
+        {
+          "client_id": "516766338611-ssptpunoc0lsngu3p82fm4qqa16pbru3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO22bhzoPwc9N3EeWsZiB1ZuvPN7YdBuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516766338611-ssptpunoc0lsngu3p82fm4qqa16pbru3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

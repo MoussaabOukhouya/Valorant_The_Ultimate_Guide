@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agents.breachAbilities"
+    android:background="#FAC9CD"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:fontFamily="@font/sim"
+        android:gravity="center"
+        android:text="Video source : Blitz.gg"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/gradientone"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/unibold"
+        android:textSize="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primary Mode:"
+            android:fontFamily="@font/simpple"
+            android:textSize="18sp"
+            android:textColor="#191970"
+            android:textStyle="bold"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:textColor="#000"
+            android:fontFamily="@font/lemon"
+            android:id="@+id/firemode_det"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+
+            android:textColor="#000"
+            android:fontFamily="@font/lemon"
+         android:id="@+id/rateoffire_det"
+         />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alternative mode:"
+            android:textColor="#191970"
+            android:fontFamily="@font/simpple"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:id="@+id/a_firemode_det"
+        android:textColor="#000"
+        android:fontFamily="@font/lemon"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:id="@+id/a_firerate_det"
+        android:textColor="#000"
+        android:fontFamily="@font/lemon"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magazine capacity:"
+            android:layout_weight="1"
+            android:textColor="#191970"
+            android:fontFamily="@font/simpple"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sim"
+            android:textSize="18sp"
+            android:id="@+id/capacity"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wall Penetration:"
+            android:textColor="#191970"
+            android:fontFamily="@font/simpple"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/sim"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:id="@+id/wallpentra"
+            android:layout_marginTop="8dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Damage:"
+        android:textColor="#191970"
+        android:fontFamily="@font/simpple"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+       >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/head"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/headdmg"
+                android:fontFamily="@font/nbr"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="14dp"
+                android:textSize="16dp"
+                android:textStyle="bold"></TextView>
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="3dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/torso"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nbr"
+            android:textSize="16dp"
+            android:id="@+id/torsodmg"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="3dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/leg"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:id="@+id/legdmg"
+            android:fontFamily="@font/nbr"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+

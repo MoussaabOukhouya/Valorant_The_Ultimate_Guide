@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myyyview"
+
+        >
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img"
+            android:text="Cost"
+            android:textSize="15dp"
+            android:textColor="#191A64"
+            android:textStyle="bold"
+            android:fontFamily="@font/nbr"
+            android:id="@+id/weapcost"
+            android:layout_centerHorizontal="true"
+            >
+        </TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="12dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weapon name"
+            android:textColor="#191970"
+            android:textStyle="bold"
+            android:fontFamily="@font/weaptitle"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/weapname"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fire Mode"
+            android:textColor="#191A64"
+            android:fontFamily="@font/rug"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="6dp"
+            android:textStyle="bold"
+            android:id="@+id/weapmode"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate of fire"
+            android:textColor="#191A64"
+            android:fontFamily="@font/rug"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="6dp"
+            android:textStyle="bold"
+            android:id="@+id/ratefire"
+            ></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

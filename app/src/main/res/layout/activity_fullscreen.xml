@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fullscreen">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/wallpaper"
+        >
+    </ImageView>
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/roundbutton"
+        android:src="@drawable/set"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/set"
+       />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/roundbuttontwo"
+        android:src="@drawable/browser"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="150dp"
+        android:visibility="invisible"
+        android:id="@+id/homescreen"
+        />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/roundbuttontwo"
+        android:visibility="invisible"
+        android:src="@drawable/lock"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="150dp"
+        android:id="@+id/lock"
+        />
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/roundbutton"
+        android:src="@drawable/download"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/download"
+        />
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/roundbutton"
+        android:src="@drawable/share"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="50dp"
+        android:focusableInTouchMode="true"
+        android:id="@+id/share"
+        />
+
+
+
+
+
+</RelativeLayout>

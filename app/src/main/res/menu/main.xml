@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:orderInCategory="101"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/heart"
+                android:title="Rate application"
+                app:showAsAction="always|withText" />
+            <item
+                android:id="@+id/shareapp"
+                android:icon="@drawable/shareapp"
+                android:title="Share application"
+                app:showAsAction="always|withText" />
+            <item
+                android:id="@+id/ads"
+                android:icon="@drawable/ads"
+                android:title="Watch ad to support us"
+                app:showAsAction="always|withText" />
+
+        </menu>
+    </item>
+</menu>

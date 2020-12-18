@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ProGuides.Valorant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Agents.joyAbilities"
+            android:parentActivityName=".Agents.killjoy"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Agents.killjoy"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name=".Firebasemessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".showskins"
+            android:parentActivityName=".Skin"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Skin"
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fullscreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wallpapers"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Agents.reynaAbilities"
+            android:parentActivityName=".Agents.Reyna"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.Reyna"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ranked.ranked_details"
+            android:parentActivityName=".Ranked.Ranked"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Map.checkMap"
+            android:parentActivityName=".Map.Maps"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".weapons.weaponDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.phoenixAbilities"
+            android:parentActivityName=".Agents.Phoenix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.Phoenix"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.cypherAbilities"
+            android:parentActivityName=".Agents.Cypher"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.Cypher"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.razeAbilities"
+            android:parentActivityName=".Agents.Raze"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.Raze"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.brimstoneAbilities"
+            android:parentActivityName=".Agents.Brimstone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.Brimstone"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.viperAbilities"
+            android:parentActivityName=".Agents.Viper"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.Viper"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.omenAbilities"
+            android:parentActivityName=".Agents.Omen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.Omen"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.sovaAbilities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.Sova"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.sageAbilities"
+            android:parentActivityName=".Agents.Sage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.Sage"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.jetAbilities"
+            android:parentActivityName=".Agents.Jett"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.Jett"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.breachAbilities"
+            android:parentActivityName=".Agents.Breach"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Agents.Breach"
+            android:parentActivityName=".agentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Patch"
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ranked.Ranked"
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Map.Maps"
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".weapons.Weapons"
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".agentsActivity"
+            android:parentActivityName=".Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+    </application>
+
+</manifest>

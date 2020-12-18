@@ -1,0 +1,466 @@
+<resources>
+    <string name="app_name">Valorant - The Ultimate Guide</string>
+    <string name="second">Weapons</string>
+    <string name="wallpapers">Wallpapers</string>
+
+
+    <!-- skins desc -->
+
+    <!-- Luxe Collection -->
+    <string name="luxeknife">
+        This knife has a small profile with classy royal red highlights.\n
+        It has a bit of a medieval feel with a leather grip and lots of steel showing.\n
+        It has a default pullout animation and default attack animation.
+    </string>
+
+    <string name="LuxeGhost">
+        This skin has multiple levels each with a unique look.\n
+        Most of them start with a white base and then have varied color accents.
+        The white starts on the silencer and works to about the halfway point and the accent picks up the rest.
+    </string>
+
+    <string name="LuxeVandal">
+        Level 1 and 2 have a red/white and blue/white theme, respectively.\n
+        Level 3 is a standout with a camouflage color that goes well with a gun that seems to be inspired by the AK-47. \n
+        Level 4 is quite unique with a beige and rich gold combination.
+    </string>
+
+    <string name="LuxeSpectre">
+        Unlike some of its family members, the white in the pattern takes more of a backseat.\n
+        Level 1 and 2 are red and blue dominated respectively.\n
+        Level 3 has the camouflage but uniquely has a clean silencer.\n
+        Level 4 is more dominated by the beige with the deep gold taking a backseat.
+    </string>
+
+    <string name="LuxeJudge">
+        Interestingly, this Luxe skin currently has no levels unlike its counterparts. \n
+        It comes in a bright red and white combination.\n
+        The model takes up a lot of your screen, so make sure you are comfortable with having this bright red beast on your hands!
+    </string>
+
+    <string name="LuxeOperator">
+        This is the Big Red (or blue or gold.)\n
+        The Level of theme (starts at the tip of the gun, escapes the barrel, and returns afterward.\n
+        Having a standout skin feels right for this gun, as its playmaking ability is high.
+    </string>
+
+    <!-- prismCollection-->
+    <string name="Prismknife">
+        This was one of the first knives to be hyped in the beta.\n
+        It has a beautiful blue and purple gradient.\n
+        Despite it\'s good looks, it is mostly just a reskin of the default melee and has no special animations.
+    </string>
+
+    <string name="PrismGhost">
+        One of the more anticipated skins, the blue and purple gradient looks especially good on the silencer.\n
+        It will glimmer as you move around the map looking for those headshots.
+    </string>
+
+    <string name="PrismPhantom">
+        A beautiful blue/purple gradients looks great here.\n
+        It matches this gun well as it maintains a stealthy appearance .
+
+    </string>
+
+    <string name="PrismSpectre">
+        This skin features a blue/purple gradient that glimmers and shines as you move around.\n
+        But don\'t be fooled, it manages to maintain it\'s stealth appearance.
+    </string>
+
+    <string name="PrismOperator">
+        If you like the blue/purple glimmer of this skin, you\'ll love watching the light reflect off the scope of this gun.\n
+        Note that the pattern does not apply to the barrel or even the handle of the gun.
+    </string>
+
+    <string name="PrismAres">
+        When using this gun, your screen is likely to be shaking around.\n
+        This is perfect for this skin, as you will catch a ton of nice effects from the purple/blue gradient.
+    </string>
+
+    <!-- Reaver Collection-->
+    <string name="ReaverKnife">
+        This knife will always be special because it was the first to show that melee skins will have different pullout animations.\n
+        It stays with the reaver theme of big and in your face.\n
+        A big golden blade with nice purple handles.
+    </string>
+
+    <string name="ReaverSheriff">
+        As with the other Reaver skins, this one shows that Riot plans to have skins that make heavy modifications to the base model.\n
+        With a royal purple and gold color scheme, and tons of point edges...bring some band-aids!
+    </string>
+
+    <string name="ReaverVandal">
+        This skin has a purple/gold theme with tons of fanged edges.\n
+        It has a special ADS reticle as well as some other special features this skin introduced such as player kill animations.
+    </string>
+
+    <string name="ReaverOperator">
+        This skin has some noticeable changes over the base model.\n
+        The Level 1 matches the Reaver\'s purple theme while Level 5 is an evil black/red theme.\n
+        The ADS while zoomed is in quite different on this beast.
+    </string>
+
+    <!--Prime Collection -->
+    <string name="PrimeKnife">
+        The first melee introduced that is not a knife.\n A gorgeous golden axe that will surely make you stand out.
+    </string>
+
+    <string name="PrimeClassic">
+        This skin makes brings some radical changes to the original model.\n
+        It has a purple grip and bright silver top.
+    </string>
+
+    <string name="PrimeVandal">
+        This skin makes heavy modifications to the Vandal.\n
+        It has a silver magazine, black stock, and gold highlights.\n
+        It also has new sounds and special animations.
+    </string>
+
+    <string name="PrimeSpectre">
+        Great SMG skin with a royalty theme.
+    </string>
+
+    <string name="PrimeGuardian">
+        This was one of the first ever Guardian skins added to the game.\n
+        It was added on official launch and has a white, purple, and rich gold theme.
+    </string>
+
+    <!-- Aristocrate Collection -->
+    <string name="AristocratSheriff">
+        This skin makes some significant changes to the base model.\n
+        It has a space cowboy sort of feel to it that matches the excitement of getting a headshot with it.
+    </string>
+
+    <string name="AristocratStinger">
+        This was one of the first skins for the Stinger.\n
+        Even though the Stinger is sometimes under-appreciated, make no mistake, this skin is gorgeous.\n
+        It has clean lines and thoughtful patterns throughout.
+    </string>
+
+    <string name="AristocratVandal">
+        This skin slims down the base Vandal model to create a sleek weapon.\
+        It also has cool are on the magazine that flows with the weapon.
+    </string>
+
+    <string name="AristocratBulldog">
+        Beautiful skin that mixes a light gold with strong gold highlights.\n
+        Fantastic magazine art to help with those burst shots!
+    </string>
+
+    <string name="AristocratAres">
+        This skin is dominated by the silver metal and accented with light and dark gold.\n
+        It feels like a weapon for a king.
+    </string>
+
+
+    <!-- Ranked details-->
+
+    <string name="one"> Right, here\’s a bitesize ‘everything you need to know’ list to kick things off.\n\n
+        - Complete 20 Unrated matches to unlock Competitive mode.\n\n
+        - There are 8 ranks, 3 tiers each, except the top rank, VALORANT.\n\n
+        - You can queue with up to 5-player parties, must be within 2 ranks.\n\n
+        - Rank isn’t displayed if competitive matches aren\’t played within 14 days, but your rank doesn\’t decay behind the scenes.
+    </string>
+
+    <string name="two">
+        To unlock Competitive matchmaking, you\’ll need to complete 20 Unrated matches.\n\n
+        Once you\’ve done so, Competitive mode will be available to select from the matchmaking menu, so you\’ll be able to kick off your quest to reach Valorant rank.\n\n
+
+        Before you get ranked, you\’ll need to complete 5 placement matches.\n\n
+        Depending on how those matches went and your personal performances within them, you\’ll then be ranked.\n\n
+        The game us ually starts people off at a pretty low rank, unless you’re exceptionally good and win all of your placements easily.\n\n
+
+        We go into further detail on playing in a party down below, but it’s worth noting that you can’t initially queue up for ranked matches without everyone having unlocked it.\n
+        \nFor example, if someone who enters your ranked party hasn’t unlocked ranked, you won’t be able to queue up at all.
+    </string>
+
+    <string name="three">
+        To rank up in Valorant, you’ll need to win games. \n\n
+        It’s that simple. If you aren\’t winning, you aren\’t going to climb.\n\n Even if you have a bad game, as long as you win, you’ll still gain some ranking points.\n
+        Simply put, losses and bad performances will hurt your rank - loss streaks will really hurt your rank, but wins will always go some way to increasing your rank.\n\n
+        there are eight levels of rank, each divided into three tiers: Iron, Bronze, Silver, Gold, Platinum, Diamond, Immortal, and Valorant.
+
+        Winning games is the most important factor in gaining rank, and if you perform exceptionally well your rank will climb faster. \n
+        As you\’d expect, losing matches and not performing too well will cause you to lose rank.\n\n
+
+        Personal performance will have a greater impact early on, but this’ll decrease in importance when compared to wins over time.\n\n
+        What\’s more, competitive measures how \“decisively\” you win or lose, so if you perform well and stomp the team, the game will know and reward you for it!\n\n
+        Manage to reach Valorant rank? Well, winning and how decisive your games are won or lost will be the only factor measured.
+    </string>
+    <string name="four">
+        There\'s almost certainly a hidden MMR\/ELO system which matches you with similarly skilled players.\n
+        If you win this\'ll go up, and if you lose, it\'ll go down.\n
+        Currently when you finish a match you\'ll have no real indication of where you lie on this scale.\n\n
+        There\'s no flashy points animation, or a ladder to climb - you simply check your rank beneath your name and hope you\'ve either gone up one, stayed the same, and hopefully not dipped down.\n\n
+
+        If you win multiple in a row with strong performances, expect to go up. As you\'d expect, if you start losing quite a few, you\'ll likely go down.
+      </string>
+    <string name="five">
+         If you\’ve got a group of mates, you can queue with up to a party of 5 people.\n
+         However, whoever you party up with must be within 2 ranks (6 tiers) from you.\n
+         This is to make sure there isn’t someone who is far, far better than everyone else, basically.\n\n
+
+         Riot also wants to make it clear that if you do queue up with a party, the matchmaking system will take this into account and “automatically optimises your match to favour similar premade sizes on the opposing team”.
+     </string>
+    <string name="sex">
+         Rank inactivity will be tracked.\n If you don\’t play a competitive match within 14 days, then your account will be considered “inactive” and your rank will be hidden.\n\n
+         After your first match back in ranked it\’ll be visible again.\n\n
+         Riot won\’t decay your rank, it’ll simply hide it until you come back, so don’t fear if you go on holiday for a while - you won’t suddenly go Diamond to Platinum.\n
+     </string>
+    <string name="seven">
+         Rounding off Riot\’s first post on ranked, progression is the main talking point.\n
+         It’s currently tinkering with how to “add an element of persistent rank progression that recognises your competitive accomplishments for all ranks outside of just the match rank display.”\n\n
+
+         It\’ll also be interesting to see if there will be a special competitive ruleset like League of Legends or CS:GO.\n
+         Will there be a map pool? Will there be a pick and ban phase before each match? We’re excited to find out.\n\n
+
+         Finally, we imagine there will be cosmetic rewards for placing in certain tiers at the end of a season too. \n
+         Expect special agent skins, weapon skins, and more.
+     </string>
+
+
+    <!-- Maps details-->
+    <string name="havendes">Unlike the other maps available in Valorant, Haven has 3 Spike planting sites.
+        \nTherefore, the attacking team has much more opportunities to win the round.</string>
+    <string name="splitdes">Split is the only map which has two Spike locations and three main paths.\n
+        two on the sides and one in the middle.\n
+        Split favours the defensive team because there are only two narrow routes leading to the charge planting spot, making them easier to defend.</string>
+    <string name="blinddes">Blind is a unique map in Valorant because it is the only map that has portals.\n
+        The latter allow players to quickly move from point A to spot B.\n
+        There are two Spike planting sites on Bind map which can be accessed through narrow passages.\n
+        these are crucial for both the attacking and defending team.</string>
+    <string name="ascentdes">Ascent, which is the newest map in VALORANT, is set in Italy with an “open middle area,” which Riot dubbed a “playground”.
+        \nIt looks like abilities will come in extra handy on this map.
+    </string>
+
+    <string name="haven">Haven</string>
+    <string name="split">Split</string>
+    <string name="blind">Bind</string>
+    <string name="ascent">Ascent</string>
+    <string name="presentation"> Check this map </string>
+
+    <!-- Abilities -->
+    <string name="alarmbot">
+        EQUIP a covert Alarmbot.\n
+        FIRE to deploy a bot that hunts down enemies that get in range.\n
+        After reaching its target, the bot explodes, applying Vulnerable.\n
+        HOLD EQUIP to recall a deployed bot.
+    </string>
+    <string name="nanoswarm">
+         EQUIP a Nanoswarm grenade. FIRE to throw the grenade.\n
+        Upon landing, the Nanoswarm goes covert.\n
+        ACTIVATE the Nanoswarm to deploy a damaging swarm of nanobots.
+    </string>
+    <string name="turret">
+        EQUIP a Turret.\n
+        FIRE to deploy a turret that fires at enemies in a 180 degree cone.\n
+        HOLD EQUIP to recall the deployed turret
+    </string>
+    <string name="lockdown">
+        EQUIP the Lockdown device.\n
+        FIRE to deploy the device.\n
+        After a long windup, the device Detains all enemies caught in the radius. The device can be destroyed by enemies.
+    </string>
+    <string name="leer">
+        EQUIP an ethereal destructible eye.\n ACTIVATE to cast the eye a short distance forward.\n The eye will Nearsight all enemies who look at it.
+    </string>
+
+    <string name="devour">Enemies killed by Reyna leave behind Soul Orbs that last 3 seconds.\n INSTANTLY consume a nearby soul orb, rapidly healing for a short duration.\n
+        Health gained through this skill exceeding 100 will decay over time.\n If EMPRESS is active, this skill will automatically cast and not consume the orb.
+    </string>
+
+    <string name="Dismiss">
+        INSTANTLY consume a nearby soul orb, becoming intangible for a short duration.\n If EMPRESS is active, also become invisible.
+    </string>
+
+    <string name="Empress">
+        INSTANTLY enter a frenzy, increasing firing speed, equip and reload speed dramatically.\n Scoring a kill renews the duration.
+    </string>
+
+    <string name="breachdesc">
+        Equip a fusion charge.\n
+        Fire the charge to set a slow-acting burst through the wall.\n
+        The burst does heavy damage to anyone caught in its area.
+    </string>
+    <string name="fpoint">
+        Equip a blinding charge.\n
+        Fire the charge to set a fast-acting burst through the wall.\n
+        The charge detonates to blind all players looking at it.
+    </string>
+    <string name="fline">
+        Equip a seismic blast.\n
+        Hold Fire to increase the distance. Release to set off the quake, dazing all players in its zone and in a line up to the zone.
+    </string>
+    <string name="rthunder">
+        Equip a seismic charge.\n
+        Fire to send a cascading quake through all terrain in a large cone.\n
+        The quake dazes and knocks up anyone caught in it.
+    </string>
+    <string name="Blaze">
+        Equip a flame wall.\n
+        Fire to create a line of flames that moves forward creating a wall that blocks vision and damages players passing through it.\n
+        Hold Fire to bend the wall in the direction of your crosshair.
+    </string>
+    <string name="Curveball">
+        Equip a flare orb that takes a curving path and detonates shortly after throwing, impairing vision.\n
+        Fire to curve the flare orb to the left, detonating and blinding any player who sees the orb.\n
+        Alternate fire to curve the flare orb to the right.\n
+    </string>
+    <string name="hothands">
+        Equip a fireball. \n
+        Fire to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies.
+    </string>
+    <string name="runitback">
+        Instantly place a marker at Phoenix\'s location. \n
+        While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health.
+    </string>
+    <string name="cloudburst">
+        Instantly throw a projectile that expands into a brief vision cloud on impact with a surface. \n
+        Hold the ability key to curve the cloud in the direction of your crosshair.
+    </string>
+    <string name="updraft">
+        Instantly propel Jett high into the air.
+    </string>
+    <string name="tailwind">
+        Instantly propel in the direction she is moving.\n If Jett is standing still, she will propel forward.
+    </string>
+    <string name="bladestorm">
+        Equip a set of highly accurate throwing knives that recharge on an opponent. Fire to throw a single knife at your target.\n Alternative Fire to throw all remaining daggers at your target.
+    </string>
+    <string name="barrierorb">
+        Equip a barrier orb. \nFire places a solid wall. \n
+        Alternate fire rotates the targeter.
+    </string>
+    <string name="sloworb">
+        Equip an orb that slows whoever walks on them after being thrown on the ground.
+    </string>
+    <string name="resurrection">
+        Equip a resurrection ability. \n
+        Fire with your crosshairs placed over a dead ally to begin resurrecting them.\n
+        After a brief channel, the ally will be brought back to life with full health.
+    </string>
+    <string name="healingorb">
+        Equip a healing orb.\n Fire with your crosshairs over a damaged ally to activate a heal-over-time on them.\n
+        Alternate fire while Sage is damaged to activate a self heal-over-time.
+    </string>
+    <string name="shockbolt">
+        Equip a bow with shock bolt. \n
+        Fire to send the explosive bolt forward detonating upon collision and damaging players nearby. \n
+        Hold Fire to extend the range of the projectile. \n
+        Alternate Fire to add up to two bounces to this arrow.
+    </string>
+    <string name="owldrone">
+        Equip an owl drone. \n
+        Fire to deploy and take control of movement of the drone.\n
+        While in control of the drone, Fire to shoot a marking dart. \n
+        This dart will reveal the location of any player struck by the dart.
+    </string>
+    <string name="reconbolt">
+        Equip a bow with recon bolt. \n
+        Fire to send the bolt forward activating upon collision and revealing the location of nearby enemies caught in the line of sight of the bolt.
+        Enemies can destroy this bolt.\n
+        Hold Fire to extend the range of the projectile.\n
+        Alternate Fire to add up to two bounces to this arrow.
+    </string>
+    <string name="huntersfury">
+        Equip a bow with three long-range, wall-piercing energy blasts. \n
+        Fire to release an blast in a line in front of Sova dealing damage and revealing the location of enemies caught in the line. \n
+        This ability can be RE-USED up to two more times while the ability timer is active.
+    </string>
+    <string name="shroudedstep">
+        Equip a shadow walk ability and see its range indicator.\n
+        Fire to begin a brief channel, then teleport to the marked location.
+    </string>
+    <string name="paranoia">
+        Instantly fire a shadow projectile forward, briefly reducing the vision range of all players it touches.\n
+        This projectile can pass straight through walls.
+    </string>
+    <string name="darkcover">
+        Equip a shadow orb and see its range indicator.\n
+        Fire to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision.\n
+        Hold Alternate Fire while targeting to move the marker further away.
+        Hold the ability key with targeting to move the market closer.
+    </string>
+    <string name="dromtheshadows">
+        Equip a tactical map.\n
+        Fire to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport.
+    </string>
+    <string name="snakebite">
+        Equip a chemical launcher. \n
+        Fire to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and slows enemies.
+    </string>
+    <string name="poisoncloud">
+        Equip a gas emitter. Fire to throw the emitter that perpetually remains throughout the round.\n
+        Re-use the ability to create a toxic gas cloud at the cost of fuel. \n
+        This ability can be re-used more than once and can be picked up to be redeployed.
+    </string>
+    <string name="toxicscreen">
+        Equip a gas emitter launcher.\n
+        Fire to deploy a long line of gas emitters.\n
+        Re-use the ability to create a tall wall of toxic gas at the cost of fuel.\n
+        This ability can be re-used more than once.
+    </string>
+    <string name="viperspit">
+        Equip a chemical sprayer.\n
+        Fire to spray a chemical cloud in all directions around Viper, creating a large cloud that reduces the vision range and maximum health of players inside of it.
+    </string>
+    <string name="incendiary">
+        Equip an Incendiary grenade launcher.\n
+        Fire to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone.
+    </string>
+    <string name="stimbeacon">
+        Equip a Stim Beacon. \n
+        Fire to toss the stim beacon in front of Brimstone. \n
+        Upon landing, the stim beacon will create a field that grants players RapidFire.
+    </string>
+    <string name="skysmoke">
+        Equip a tactical map.\n
+        Fire to set locations where Brimstone\'s smoke clouds will land. Alternate Fire to confirm, launching long-lasting smoke clouds that block vision in the selected area.
+    </string>
+    <string name="orbitalstrike">
+        Equip a tactical map.\n
+        Fire to launch a lingering orbital strike laser at the selected location dealing high damage over-time to players caught in the selected area.
+    </string>
+    <string name="boombot">
+        Equip a Boom Bot. Fire will deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls.\n
+        The Boom Bot will lock on to any enemies in its frontal cone and chase them, exploding for heavy damage if it reaches them.
+    </string>
+    <string name="blastpack">
+        Instantly throw a Blast Pack that will stick to surfaces.\n
+        Re-use the ability after deployment to detonate, damaging and moving anything hit.\n
+        Raze isn\'t damaged by this ability, but will still take fall damage if launched up far enough.
+    </string>
+    <string name="paintshells">
+        Equip a cluster grenade.\n
+        Fire to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range.
+    </string>
+    <string name="showstopper">
+        Raze equips a single-use rocket launcher with the ability to one-shot enemies.\n
+        Damage from this ability is consistent throughout the entire blast radius.
+    </string>
+    <string name="trapwire">
+        Equip a trapwire. \n
+        Fire to place a destructible and covert tripware at the targeted location, creating a line that spans between the placed location and the wall opposite. \n
+        Enemy players who cross a tripwire will be tethered, revealed, and dazed after a short period if they do not destroy the device in time. \n
+        This ability can be picked up to be redeployed.
+    </string>
+    <string name="cybercage">
+        Equip a cyber cage.\n Fire to toss the cyber cage in front of Cypher.\n Activate to create a zone that blocks vision and slows enemies who pass through it.
+    </string>
+    <string name="spycam">
+        Equip a spycam.\n
+        Fire to place the spycam at the targeted location.\n
+        REUSE this ability to take control of the camera\'s view.\n
+        While in control of the camera. Fire to shoot a marking dart. \n
+        This dart will reveal the location of any player struck by the dart.\n
+    </string>
+    <string name="neutraltheft">
+        Instantly use on a dead enemy player in your crosshairs to reveal the location of all living enemy players.
+    </string>
+
+    <!-- -->
+
+    <!-- Classic weapons -->
+
+
+</resources>

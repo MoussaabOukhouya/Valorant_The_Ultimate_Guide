@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".agentsActivity"
+    android:background="@drawable/wallpaper">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:navigationIcon="@drawable/back"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_scrollFlags="scroll|enterAlways" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ranked"
+            android:textSize="18dp"
+            android:textColor="#FFF"
+            android:fontFamily="@font/lemon"
+            android:layout_marginLeft="80dp"/>
+    </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="6dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/ranked"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        />
+
+                <Button
+                        android:id="@+id/butt_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#FFF"
+                        android:padding="3dp"
+                        android:textSize="16dp"
+                    android:onClick="buttone"
+                        android:fontFamily="@font/lemon"
+                        android:text="How Does ranked work ?"
+                        android:background="@drawable/gradienttwo">
+                </Button>
+
+               <Button
+                   android:id="@+id/butt_two"
+                   android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                   android:layout_marginBottom="10dp"
+                android:textColor="#FFF"
+                android:textSize="16dp"
+                android:fontFamily="@font/lemon"
+                android:text="How do I unlock ranked ?"
+                   android:onClick="butttwo"
+                android:background="@drawable/gradienttwo">
+               </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFF"
+                android:onClick="buttthree"
+                android:textSize="16dp"
+                android:fontFamily="@font/lemon"
+                android:text="How do I rank up ?"
+                android:id="@+id/button_three"
+                android:background="@drawable/gradienttwo"
+                android:padding="3dp">
+            </Button>
+
+            <Button
+                android:id="@+id/butt_four"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFF"
+                android:onClick="buttfour"
+                android:textSize="16dp"
+                android:fontFamily="@font/lemon"
+                android:text="Is there a points system ?"
+                android:background="@drawable/gradienttwo"
+                android:padding="3dp">
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFF"
+                android:onClick="buttfive"
+                android:textSize="16dp"
+                android:fontFamily="@font/lemon"
+                android:id="@+id/butt_five"
+                android:text="Can I queue up with friends ?"
+                android:background="@drawable/gradienttwo"
+                android:padding="3dp">
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/butt_sex"
+                android:textColor="#FFF"
+                android:onClick="buttsex"
+                android:textSize="16dp"
+                android:fontFamily="@font/lemon"
+                android:text="What happens if I don’t play ranked for a while ?"
+                android:padding="3dp"
+                android:background="@drawable/gradienttwo">
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFF"
+                android:textSize="16dp"
+                android:id="@+id/button_seven"
+                android:onClick="buttseven"
+                android:padding="3dp"
+                android:fontFamily="@font/lemon"
+                android:text="What’s the future of ranked look like ?"
+                android:background="@drawable/gradienttwo">
+            </Button>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FEFEFE"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:itemRippleColor="#323F58"
+        app:menu="@menu/menu_nav"
+        android:layout_gravity="bottom"
+        android:id="@+id/nav_view"
+        app:labelVisibilityMode="labeled"
+        android:layout_weight="0"
+        app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
+        ></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
